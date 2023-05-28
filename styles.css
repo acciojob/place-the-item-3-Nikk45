@@ -3,9 +3,16 @@
 .holder{
 	display:flex;
 	flex-flow: row wrap;
+	width:800px;
+	height:500px;
+	background-color: lawngreen ;
+	justify-content:start;
 	justify-content:space-evenly;
-
+	column-gap:4px;
+	align-item:end;
+}
 .item{
+	background-color:green;
 	width:100px;
 	height:100px;
 }
